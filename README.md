@@ -1,6 +1,6 @@
-# 📘 Organization Communication App – Database Design
+# Organization Communication App – Database Design
 
-## 📌 Overview
+## Overview
 
 This repository documents the **database schema and relationship mapping** for a scalable, secure organization communication application.
 
@@ -16,7 +16,7 @@ The complete application (Flutter mobile app + backend services) will be added i
 
 ---
 
-## 🧱 Database Architecture Summary
+## Database Architecture Summary
 
 The system follows a **hybrid storage architecture**:
 
@@ -41,7 +41,7 @@ This separation ensures **scalability, security, and maintainability**.
 
 ---
 
-## 🧩 Core Design Principles
+## Core Design Principles
 
 - **Multi-Organization Support**  
   Users may belong to multiple organizations with different roles.
@@ -60,7 +60,7 @@ This separation ensures **scalability, security, and maintainability**.
 
 ---
 
-## 🗂️ Database Tables Overview
+## Database Tables Overview
 
 ### **1️⃣ Identity & Organization**
 - `users` – Global user identity
@@ -91,7 +91,7 @@ This separation ensures **scalability, security, and maintainability**.
 
 ---
 
-## 🔗 Relationship Mapping (High Level)
+## Relationship Mapping (High Level)
 
 - A **user** can belong to multiple **organizations**
 - An **organization** defines its own **roles**
@@ -107,7 +107,7 @@ This separation ensures **scalability, security, and maintainability**.
 
 ---
 
-## 🖼️ Entity Relationship Diagram (ERD)
+## Entity Relationship Diagram (ERD)
 
 The ER diagram visually represents the database structure and relationships.
 
